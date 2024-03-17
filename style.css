@@ -52,7 +52,7 @@ html {
 
 .div-mask.hidden{
   transition: all .5s;
-  top: -100%;
+  top: -200%;
 }
 
 .loader {
