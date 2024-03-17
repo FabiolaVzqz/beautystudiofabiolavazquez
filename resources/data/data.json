@@ -1,0 +1,139 @@
+{
+  "listaPortada": [
+    {
+      "servicio": "EXTENSIONES",
+      "axiliarServicio": "DE PESTAÑAS",
+      "descripcion": "La magia está en tus ojos. <br/> Descubre el poder de unas pestañas deslumbrantes",
+      "imagen": "pestañasPortada.png",
+      "imagenMovil": "portadaPestañasMovil.webp"
+    },
+    {
+      "servicio": "LAMINADO",
+      "axiliarServicio": "DE CEJAS",
+      "descripcion": "La magia está en tus ojos. <br/> Descubre el poder de unas pestañas deslumbrantes",
+      "imagen": "cejasPortada1.png",
+      "imagenMovil": "portadaCejasMovil.webp"
+    }
+  ],
+
+  "listaComentarios": [
+    {
+      "nombreCliente": "Sandy",
+      "comentario": "⭐Satisfactoriamente quiero agradecer y recomendar a: <br> 🥇Faby Vazquez💁🏻‍♀️ <br> Por el trabajo de diseño de Cejas HD y Henna Brows, que me realizó, super recomendable como persona: <br>*muy amable <br>*atenta <br>*paciente <br>*carismática <br>💯✔️nivel de higiene 💯. <br><br>Tuve un poco de miedo al cambió por el diseño de mis cejas 🫣 pero me encantó, quedé fascinada. <br>Por eso quiero recomendar a todas las chicas, que como yo tienen un poco de miedo de que nos realicen un mal diseño, con Faby obtendrán el resultado y trato esperado. 🤩<br>",
+      "imagenTrabajoRealizado": "431321212_399499749470840_2840292168320290449_n.jpg",
+      "calififacion": 5
+    },
+    {
+      "nombreCliente": "Emilia",
+      "comentario": "Súper recomendable, higiene al mil, una atención muy linda y amable, me encantaron mis pestañas 😍, excelente servicio, gracias Fabiola Vazquez \"BEAUTY STUDIO\"",
+      "imagenTrabajoRealizado": "431252751_884068953408229_2186883581044046657_n.jpg",
+      "calififacion": 5
+    },
+    {
+      "nombreCliente": "Lourdes",
+      "comentario": "Hola gracias me encantaron mis pestañas 😍😍",
+      "imagenTrabajoRealizado": "431270073_702005512010739_6326157850567900437_n.jpg",
+      "calififacion": 5
+    },
+    {
+      "nombreCliente": "Diana",
+      "comentario": "Excelente atención, me sentí muy cómoda y el trato fue muy agradable, sin duda regresaré. Me gustaron mucho se ven naturales y no son para nada molestas",
+      "imagenTrabajoRealizado": "431064692_1443561186236103_6660754989681621372_n.jpg",
+      "calififacion": 5
+    }
+  ],
+
+  "listaServicios": [
+    {
+      "nombreServicio": "EXTENSIÓN DE PESTAÑAS",
+      "imagenServicio": "extensionService.webp",
+      "listaDerivados": [
+        "Clásica",
+        "Hibrida",
+        "Volumen Hawaiano",
+        "Volumen Egipcio",
+        "Volumen Griego",
+        "Efecto Wispy",
+        "Volumen Tecnológico",
+        "Mega Volumen"
+      ]
+    },
+    {
+      "nombreServicio": "LAMINADO DE CEJAS",
+      "imagenServicio": "laminadoService.webp",
+      "listaDerivados": ["Cejas en HD", "Henna Brows"]
+    }
+  ],
+
+  "listaTrabajosRealizados": [
+    {
+      "tipoTrabajo": 1,
+      "lista": [
+        {
+          "nombreTecnicaRealizada": "TÉCNICA EFECTO WISPY",
+          "imagen": "432664080_1625541438202785_6263815694950877479_n.jpg"
+        },
+        {
+          "nombreTecnicaRealizada": "TÉCNICA VOLUMEN EGIPCIO",
+          "imagen": "431252751_884068953408229_2186883581044046657_n.jpg"
+        },
+        {
+          "nombreTecnicaRealizada": "TÉCNICA CLASICA",
+          "imagen": "432997813_695344452539589_4217584362338482646_n.jpg"
+        },
+        {
+          "nombreTecnicaRealizada": "TÉCNICA HIBRIDA",
+          "imagen": "431064692_1443561186236103_6660754989681621372_n.jpg"
+        },
+        {
+          "nombreTecnicaRealizada": "TÉCNICA HIBRIDA",
+          "imagen": "431270073_702005512010739_6326157850567900437_n.jpg"
+        },
+        {
+          "nombreTecnicaRealizada": "TÉCNICA VOLUMEN GRIEGO",
+          "imagen": "430745494_410969724813062_4480980685822333443_n.jpg"
+        }
+      ]
+    },
+    {
+      "tipoTrabajo": 2,
+      "lista": [
+        {
+          "nombreTecnicaRealizada": "DISEÑO DE CEJA Y HENNA BROWS",
+          "imagen": "431321212_399499749470840_2840292168320290449_n.jpg"
+        },
+        {
+          "nombreTecnicaRealizada": "HENNA BROWS",
+          "imagen": "432680714_391429980191270_2872667106340099258_n.jpg"
+        }
+      ]
+    }
+  ],
+
+  "infoAdicionalBeautyFabiolaVazquez": [
+    {
+      "nombre": "LOCALIZACIÓN",
+      "descripcion": "5 de mayo #44, Villa Guerrero 51760",
+      "valor": "https://maps.app.goo.gl/jPkx8WgwTUst4qyw8",
+      "imagen": "iconLocation.svg"
+    },
+    {
+      "nombre": "FACEBOOK",
+      "descripcion": "Beauty Studio Fabiola Vázquez",
+      "valor": "https://www.facebook.com/profile.php?id=100011616189286",
+      "imagen": "iconFacebook.svg"
+    },
+    {
+      "nombre": "WHATSAPP",
+      "descripcion": "7291177166",
+      "valor": "https://api.whatsapp.com/send?phone=7291177166&text=¡Hola! Me puedes dar informes de tus servicios por favor. Muchas gracias 😃",
+      "imagen": "iconWhatsAppGreen.svg"
+    },
+    {
+      "nombre": "CORREO ELECTRÓNICO",
+      "descripcion": "fabivazcrz09@gmail.com",
+      "valor": "mailto:fabivazcrz09@gmail.com",
+      "imagen": "iconEmailInfo.svg"
+    }
+  ]
+}

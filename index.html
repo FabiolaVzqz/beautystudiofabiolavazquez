@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" id="inicio">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fabiola Vazquez | Beauty Studio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./resources/svg/iconheader.svg" type="image/x-icon">
+  </head>
+  <body>
+    <div class="div-mask">
+      <div class="loader"></div>
+    </div>
+    <input type="checkbox" name="menudrop" class="menudrop" id="menudrop">
+    <header class="header">
+      
+      <div class="div-isotipo-header">
+        <img
+          src="./resources/svg/logotipo.svg"
+          draggable="false" 
+          width="140px"
+          alt="LOGOTIPO"
+        />
+        <label for="menudrop" class="icondown">
+          <img width="20px" class="icondrow" height="20px" src="./resources/svg/donw2.svg" alt="MENÚ">
+        </label>
+        
+      </div>
+      
+      <nav class="navbar">
+        <ul>
+          <li><a onclick="hiddenMenu()" href="#inicio">INICIO</a></li>
+          <li><a  onclick="hiddenMenu()" href="#comentarios">COMENTARIOS</a></li>
+          <li><a  onclick="hiddenMenu()" href="#servicios">SERVICIOS</a></li>
+          <li><a  onclick="hiddenMenu()" href="#sobre-mi">SOBRE MI</a></li>
+          <li><a  onclick="hiddenMenu()" href="#info-adicional">INFO ADICIONAL</a></li>
+          <div onclick="navigatedToURL(null, 'WHATSAPP')" class="button-contact-me">
+            <p>CONTÁCTAME</p>
+            <img
+              src="./resources/svg/iconWhats.svg"
+              draggable="false"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <div class="div-presentation-carroucel carousel" id="carousel">
+      <div class="carousel-images">
+        <!-- Los indicadores se generarán con JavaScript -->
+      </div>
+      <div class="carousel-indicators">
+        <!-- Los indicadores se generarán con JavaScript -->
+      </div>
+    </div>
+
+    <div class="div-section-feedback section" id="comentarios">
+      <h2>Comentarios sobre mi trabajo</h2>
+      <div class="div-feedback">
+        <div class="feedback-container-wrapper">
+          <div class="feedback-container">
+            <!--AQUI SE CARGA LOS LEMENTOS CON JAVASCRIPT-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divisor" />
+
+    <div class="div-section-feedback section" id="servicios">
+      <h2>Servicios</h2>
+      <p class="link-makes">
+        <a href="#makes">Ver trabajos que he realizado</a>
+      </p>
+      <div class="divs-services">
+      <!--AQUI SE CARGA LOS LEMENTOS CON JAVASCRIPT-->
+      </div>
+    </div>
+
+    <hr class="divisor" />
+
+    <div class="div-section-makes section" id="makes">
+      <h2>Trabajos realizados</h2>
+
+      <h3 class="subtitle-makes">EXTENSIÓN DE PESTAÑAS</h3>
+
+      <div class="div-feedback">
+        <div class="feedback-container-wrapper">
+          <div class="feedback-container fmcmakes">
+             <!--AQUI SE CARGA LOS LEMENTOS CON JAVASCRIPT-->
+          </div>
+        </div>
+      </div>
+
+      <h3 class="subtitle-makes">LAMINADO DE CEJAS</h3>
+
+      <div class="div-feedback">
+        <div class="feedback-container-wrapper">
+          <div class="feedback-container fbackcejas">
+            <!--AQUI SE CARGA LOS LEMENTOS CON JAVASCRIPT-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divisor" />
+
+    <div class="info-additional section" id="sobre-mi">
+      <h2>Sobre Beauty Studio</h2>
+
+      <div class="div-info-about-me">
+        <p>
+          Hola, soy Fabiola Vazquez, fundadora y artista principal en Beauty
+          Studio Fabiola Vazquez, donde la belleza y la expresión <br />
+          personal se encuentran en cada detalle. <br />
+          Cada cliente es único y merece un servicio que refleje su
+          individualidad. Por eso, me he dedicado a perfeccionar técnicas que no
+          solo <br />
+          embellecen sino que también cuidan la salud de tus pestañas y cejas.
+          La formación continua y la actualización en las últimas <br />
+          tendencias y productos son pilares en mi carrera, asegurándome de
+          ofrecer siempre lo mejor en el mercado. <br />
+          En Beauty Studio Fabiola Vazquez, no solo transformamos miradas, sino
+          que también fomentamos un espacio de confianza y <br />
+          relajación, donde cada visita se convierte en una experiencia de
+          autocuidado y renovación. Estoy orgullosa de haber creado un <br />
+          entorno donde la técnica se une con el arte para celebrar tu belleza
+          única. <br /><br />
+          <b
+            >¡Espero poder darte la bienvenida pronto y juntas crear la mirada
+            que siempre has soñado!</b
+          >
+        </p>
+        <div class="img-isotipo-beauty">
+          <img
+            draggable="false"
+            src="./resources/images/logo.webp"
+            alt="ISOTIPO"
+          />
+        </div>
+      </div>
+    </div>
+
+    <hr class="divisor" />
+
+    <div class="info-additional2 section" id="info-adicional">
+      <h2>Información adicional</h2>
+
+      <div class="div-columns-additional-information">
+        <div class="column-info-social">
+            <!--AQUI SE CARGA LOS LEMENTOS CON JAVASCRIPT-->
+        </div>
+        <div class="imgpestanias-info">
+          <img
+            src="./resources/images/imagePestañasInfo.png"
+            width="60%"
+            alt="INFO ADICIONAL"
+          />
+        </div>
+      </div>
+    </div>
+
+    <hr class="divisor" />
+
+
+
+    <footer>
+      <div class="center-div-footer">
+        <div class="section-footer">
+          <p>&copy; Copyright | Beauty Studio Fabiola Vazquez | 2024</p>
+          <img src="./resources/images/logo.webp" width="120px" height="120px" alt="LOGO">
+          <div class="div-icons-social-media">
+            <img onclick="navigatedToURL(null,'FACEBOOK')" src="./resources/svg/iconFacebook2.svg" width="50px" height="50px" alt="FACEBOOK">
+            <img onclick="navigatedToURL(null, 'CORREO ELECTRÓNICO')" src="./resources/svg/iconemail.svg" width="50px" height="50px" alt="EMAIL">
+            <img onclick="navigatedToURL(null, 'WHATSAPP')" src="./resources/svg/iconWhats.svg" width="50px" height="50px" alt="WHATSAPP">
+          </div>
+        </div>
+        <div class="section-footer scf2">
+          <p>Página web desarrollada por <a class="linkpdgn" target="_blank" href="https://www.facebook.com/profile.php?id=61556833364828">GN | DevWeb</a></p>
+          <img src="./resources/svg/PDGN_logo.svg" width="120px" height="120px" alt="LOGO">
+          <div class="div-icons-social-media">
+            <img onclick="navigatedToURL('https://www.facebook.com/profile.php?id=61556833364828', null)" src="./resources/svg/iconFacebook2.svg" width="50px" height="50px" alt="FACEBOOK">
+            <img onclick="navigatedToURL('mailto:pxadn2906@gmail.com', null)" src="./resources/svg/iconemail.svg" width="50px" height="50px" alt="EMAIL">
+            <img onclick="navigatedToURL('https://api.whatsapp.com/send?phone=5628385629&text=Hola! Me gustaría obtener información sobre tus servicios de desarrollo web 🌐', null)" src="./resources/svg/iconWhats.svg" width="50px" height="50px" alt="WHATSAPP">
+            <img onclick="navigatedToURL('', null)" src="./resources/svg/iconInstagram.svg" width="50px" height="50px" alt="INSTAGRAM">
+          </div>
+        </div> 
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
